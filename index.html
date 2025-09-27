@@ -3,13 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Fresh Flowers</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="flower.css">
 </head>
-<body>
+<body class="bg-sky-300/10">
   <header>
  <nav>
-  
+  <img src="assets/logo.png" alt="">
+  <ul class="hidden md:flex items-center gap-8 text-gray-700">
+    <li class="lists font-bold">Home</li>
+    <li class="lists"><span class="text-gray-400">Shop</span></li>
+    <li class="lists"><span class="text-gray-400">About us</span></li>
+    <li class="lists "><i class="fa-solid fa-cart-shopping"></i> cart ($56)</li>
+  </ul>
+
  </nav>
+ <div class="banner  ">
+  <div class="banner-details">
+    <h1 class="text-6xl font-bold">ALWAYS <span class="text-orange-600">FRESH FLOWERS</span></h1>
+    <p class="pt-9 text-gray-400 text-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+  </div>
+  <img src="assets/hero-flower.png" alt="">
+ </div>
   </header>
   <main>
 

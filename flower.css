@@ -58,7 +58,22 @@ section {
   margin-right: 5px;
 
 }
+.Bunch{
+  background-image: url(assets/news-letter-bg.png);
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
 
+}
+.bunch-title{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 173px;
+}
+.b{
+  height: 20px;
+}
 
 
 
@@ -95,6 +110,7 @@ section {
 
 }
 
+
 /* plant lover responsive */
 @media screen and (max-width:768px) {
   .plant-lover {
@@ -111,7 +127,5 @@ section {
   .para {
     width: 100%;
   }
-
-
 
 }

@@ -1,21 +1,117 @@
-nav{
+nav {
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
 }
-.lists  {
+
+.lists {
   list-style: none;
-  
+
 }
-ul{
+
+ul {
   display: flex;
   gap: 40px;
 }
-.banner{
+
+.banner {
   display: flex;
   justify-content: space-evenly;
-  margin-left: 150px ;
+  margin-left: 150px;
   margin-right: 150px;
   margin-top: 200px;
-  
+
+}
+
+button {
+  background-color: #E95A08;
+  color: white;
+  padding: 7px 25px;
+  font-weight: 700;
+  width: 269px;
+
+  padding-bottom: 14px;
+
+}
+
+section {
+  text-align: center;
+}
+
+.flower-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+
+}
+
+.cards {
+  border: 1px solid none;
+
+  width: 270px;
+  height: 416px;
+  padding-bottom: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 5px;
+
+}
+
+
+
+
+/* cards responsive */
+@media screen and (max-width:768px) {
+  .flower-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  ul .hide {
+    display: none;
+  }
+
+}
+
+.plant-lover {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.trusted-badge {
+  margin-left: -150px;
+  margin-top: -100px;
+
+}
+
+.para {
+  margin-left: 100px;
+  margin-top: 20px;
+
+}
+
+/* plant lover responsive */
+@media screen and (max-width:768px) {
+  .plant-lover {
+    flex-direction: column;
+    margin: 30px;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
+
+  .para {
+    width: 100%;
+  }
+
+
+
 }
